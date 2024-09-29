@@ -1,0 +1,125 @@
+@media screen {
+@layer imported-with-media {
+@layer level-2 {
+@media (min-width: 320px) {
+@layer level-3 {
+@layer Z {
+  body {
+    color: cyan;
+  }
+}
+}
+}
+}
+}
+}
+
+@media screen {
+@layer imported-with-media {
+@layer level-2 {
+
+@layer Y {
+  body {
+    color: purple;
+  }
+}
+}
+}
+}
+
+@media screen {
+@layer imported-with-media {
+
+body {
+  order: 1;
+}
+
+@media (min-width: 50rem) {
+  body {
+    order: 2;
+  }
+}
+
+@keyframes RED_TO_BLUE {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+@supports (display: grid) {
+  body {
+    display: grid;
+    order: 3;
+  }
+}
+
+@layer A {
+  body {
+    order: 4;
+  }
+}
+}
+}
+
+@layer imported-without-media {
+@layer level-2 {
+@media (min-width: 320px) {
+@layer level-3 {
+@layer Z {
+  body {
+    color: cyan;
+  }
+}
+}
+}
+}
+}
+
+@layer imported-without-media {
+@layer level-2 {
+
+@layer Y {
+  body {
+    color: purple;
+  }
+}
+}
+}
+
+@layer imported-without-media {
+
+body {
+  order: 1;
+}
+
+@media (min-width: 50rem) {
+  body {
+    order: 2;
+  }
+}
+
+@keyframes RED_TO_BLUE {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+@supports (display: grid) {
+  body {
+    display: grid;
+    order: 3;
+  }
+}
+
+@layer A {
+  body {
+    order: 4;
+  }
+}
+}

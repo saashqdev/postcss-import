@@ -1,0 +1,9 @@
+@import url(data:text/css;base64,QGltcG9ydCB1cmwoZGF0YTp0ZXh0L2NzcztiYXNlNjQsY0NCN0lHTnZiRzl5T2lCbmNtVmxianNnZlE9PSk7CgpwIHsgY29sb3I6IGJsdWU7IH0K);
+@import url("DATA:TEXT/CSS;BASE64,QGltcG9ydCB1cmwoZGF0YTp0ZXh0L2NzcztiYXNlNjQsY0NCN0lHTnZiRzl5T2lCbmNtVmxianNnZlE9PSk7CgpwIHsgY29sb3I6IGJsdWU7IH0K") layer(foo) (min-width: 320px);
+
+/* Mixed imports: */
+@import url(data-url.css);
+
+/* url encoded: */
+@import url(data:text/css;plain,bar%20%7B%20color%3A%20green%20%7D);
+@import url(data:text/css,bar%20%7B%20color%3A%20pink%20%7D);

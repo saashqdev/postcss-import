@@ -1,0 +1,50 @@
+@media screen {
+
+rule-one {}
+
+rule-two {}
+
+@media (min-width: 50rem) {
+  rule-three {}
+
+  rule-four {}
+}
+
+rule-five {}
+
+rule-six {}
+}
+
+@layer {
+
+rule-one {}
+
+rule-two {}
+
+@media (min-width: 50rem) {
+  rule-three {}
+
+  rule-four {}
+}
+
+rule-five {}
+
+rule-six {}
+}
+
+@layer named {
+
+rule-one {}
+
+rule-two {}
+
+@media (min-width: 50rem) {
+  rule-three {}
+
+  rule-four {}
+}
+
+rule-five {}
+
+rule-six {}
+}
